@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.25em;
+    color: #3e3d3d;
+    background-color: #ffffff;
+    }
+
+h1 {
+    font-family: 'Inconsolata';
+    color: #3e3d3d;
+    line-height: 0em;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    color: #3e3d3d;
+    line-height: .5em;
+}
+
+h4 {
+    font-family: 'Inconsolata';
+    color: #3e3d3d;
+}
+
+a {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    color: midnightblue;
+    text-decoration: none;
+    padding: 1px;
+}
+
+a:hover {
+    background-color: rgba(255, 69, 0, 0.93);
+}
+
+#header a:link{
+    font-family: 'Inconsolata';
+    color: midnightblue;
+    padding: 1px;
+}
+
+#bio {
+    font-size: 18px;
+    line-height: 120%;
+}
+
+footer {
+    border-top: 1px solid #11114e;
+    
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+}
+
+ul.posts li{
+    list-style: none;
+}
+
+nav ul, footer ul {
+    font-family: 'Inconsolata';
+    font-weight: normal;
+    color: midnightblue;
+    text-decoration: none;
+    padding: 1px;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
