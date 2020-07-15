@@ -1,35 +1,173 @@
-<!DOCTYPE html>
-<html lang=en>
+<!doctype html>
 
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html">
+
     <meta charset="utf-8">
-    <meta name="description" content="Shrey Sahgal is a high schooler at Horace Mann School." />
-    <meta name="keywords" content="Shrey Prakash Sahgal" />
-    <title>Shrey Sahgal</title>
+
+    <title>Shrey Sahgal Portfolio</title>
+    <meta name="description" content="Shrey Sahgal portfolio website :)">
+    <meta name="author" content="Shrey Sahgal">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/cf9b0659f0/UntitledProject/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:700|Judson:400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <symbol viewBox="0 0 50 50" id="icon-devpost">
+            <path d="M13.938 7L3.851 25.004 14.199 43h21.864l10.082-18L36.062 7zM18 15h7.156C30.598 15 35 19.473 35 25s-4.402 10-9.844 10H18zm4 4v12h3c3.309 0 6-2.691 6-6s-2.691-6-6-6z"/>
+          </symbol>
+        </defs>
+      </svg>
+
 </head>
 
 <body>
-    <div id="footer">
-        <h1>Hey there, I'm Shrey</h1>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="container w-80">
+            <div class="text-center text-white">
+                <h1>Shrey Sahgal</h1>
+                <hr>
+                <a class="text-white link" href="https://github.com/shreysahgal"><i class="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="text-white link" href="mailto:shreyps@umich.edu"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;shreyps@umich.edu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="text-white link" href="https://www.linkedin.com/in/shrey-sahgal-798973129/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;LinkedIn</a></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="text-white link" href="/resume.pdf"><i class="fa fa-paperclip fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Resumé</a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="card mx-auto bg-primary w-80">
+                <div class="card-body">
+                <h5 class="card-title header text-center">About Me</h5>
+                <p class="card-text body tab">
+                    I'm an incoming freshman at the University of Michigan's College of Engineering where I intend to study computer science 
+                    and physics. I recently graduated from the Horace Mann School in the Bronx, NY. I'm a big fan of programming and in particular web-app
+                    development and data analysis. I've held a number of internships including a year as a fullstack intern at QuiO Technologies, a biotech
+                    startup where I got to learn a lot of about what real-world web-dev is all about and a Automation Engineering/Data Analysis internship
+                    at Essen Medical Associates, a healthcare company based out of the Bronx.
+                </p>
+                <p class="card-text body tab">
+                    Outside of the classroom, I co-captained my schools 3 FTC Robotics teams, ran a Horace Mann's annual hackathon, 
+                    HackMann, for 2 years (this year we pulled in over 150 people!), and competed in a number of hackathons with my friends.
+                    I also enjoy reading, playing video games (my genji play is particularly clean--don't feel the need to fact-check that), and thinking
+                    about doing things then not doing them.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="card mx-auto bg-primary w-80">
+                <div class="card-body">
+                <h5 class="card-title header text-center">Projects</h5>
+                    <div class="card-text body">
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                Staycate
+                                <br/>
+                                <a href="" class="text-white"><i class="icon-devpost"><svg>
+                                    <use xlink:href="#icon-devpost"></use>
+                                </svg></i></a>
+                                <a href="" class="text-white githublink"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                <a href="" class="text-white"><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </dt>
+                            <dd class="col-sm-9">
+                                This is a fun little web app that I made with my friends for Hackcation 2020. The idea is that it allows users to travel to
+                                different places vicariously through social media. When you go to somewhere on the Staycate map, the map is populated with social
+                                media pictures of nearby attractions/locations.
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                DancingOrFalling
+                                <br/>
+                                <a href="https://github.com/shreysahgal/DancingOrFalling" class="text-white"><span class="icon-github"></span></a>
+                                <a href="http://dancingorfalling.herokuapp.com/" class="text-white"><span class="icon-link"></span></a>
+                            </dt>
+                            <dd class="col-sm-9">
+                                This is a very silly web game that I made after one of my friends paused some youtube video at a weird moment and I really
+                                couldn't tell without context whether the person was mid-fall or breakdancing (turns out it was breakdancing). The game
+                                is modeled after Llama or Duck, a game I remember playing in elementary school but I have yet to find someone else who
+                                remembers it (maybe it was just a figment of my overactive imagination? If you have played Llama or Duck please contact me!).
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                VoteSys
+                                <br/>
+                                <a href="" class="text-white"><span class="icon-github"></span></a>
+                                <a href="" class="text-white"><span class="icon-link"></span></a>
+                            </dt>
+                            <dd class="col-sm-9">
+                                This is a nifty utility that I made as a (sort of) final project for a discrete math/voting theory class that I took in my senior
+                                year of high school. The idea is that it can take in a CSV of a bunch of votes and spit out a preference schedule and analyze the
+                                votes using a number of different techniques (you can find more information about the election theory behind this 
+                                <a href="https://ballotpedia.org/Ranked-choice_voting_(RCV)"><span class="text-white underline">here</span></span></a>). This project let me learn
+                                the pain of file i/o and the weirdness that arises when using cookies extensively.
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                Taylor Poly Visualizer
+                                <br/>
+                                <a href="https://github.com/shreysahgal/TaylorSeries" class="text-white"><span class="icon-github"></span></a>
+                                <a href="http://taylorpoly.herokuapp.com/" class="text-white"><span class="icon-link"></span></a>
+                            </dt>
+                            <dd class="col-sm-9">
+                                This is a relatively boring but still fun-to-make visualizer of Taylor Polynomials. I made it with a few friends
+                                for a calc project. My friends did most of the math and I got to play around with the Desmos API and funky styling.
+                                Certainly not the most intricate project I've made but I still think it's a cool visualization of a neat math concept.
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="card mx-auto bg-primary w-80">
+                <div class="text card-body">
+                    <h5 class="card-title header text-center">Education</h5>
+                    <div class="card-text body">
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                Horace Mann School<br>
+                                <span class="subheader">2016-2020</span>
+                                <br/>
+                            </dt>
+                            <dd class="col-sm-9">
+                                FTC Robotics team 4326 Captain, <a class="text-white underline" href="https://www.summeronthehill.org/">STEAM
+                                on the Hill</a> lead programming instructor, <a class="text-white underline" href="https://hackmann2020.github.io/">
+                                HackMann 2020</a>/<a class="text-white underline" href="https://hackmann2019.github.io/">2019</a> Organizing Committee Chair,
+                                middle schoolor robotics mentor, <a class="text-white underline" href="https://www.acsl.org/">ACSL</a> competitor, Framework
+                                Sci/Tech editor, first-chair Euphonium/soloist, HM Manuscript poetry writer. Graduated with Honors in Computer Science,
+                                Excellence in Robotics, and Honors in Music.
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="header2 col-sm-3">
+                                University of Michigan<br><span class="subheader2">College of Engineering</span><br>
+                                <span class="subheader">2020-2024</span>
+                                <br/>
+                            </dt>
+                            <dd class="col-sm-9">
+                                FTC Robotics team 4326 Captain, <a class="text-white underline" href="https://www.summeronthehill.org/">STEAM on the Hill</a> lead programming instructor, <a class="text-white underline"  href="https://hackmann2020.github.io/">HackMann 2020</a>/<a class="text-white underline" href="https://hackmann2019.github.io/">2019</a> Organizing Committee Chair, middle schoolor robotics mentor, <a class="text-white underline" href="https://www.acsl.org/">ACSL</a> competitor, Framework Sci/Tech editor, first-chair Euphonium/soloist, HM Manuscript poetry writer. Graduated with Honors in Computer Science, Excellence in Robotics, and Honors in Music.
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="links">
-        <h4>Github: <a href="https://github.com/shreysahgal" target="_blank">github/shreysahgal</a>, Email: <a href="mailto:shreysahgal@gmail.com">shreysahgal@gmail.com</a></h4>
-    </div>
-
-    <div id="bio">
-        <p>I'm a high schooler who has a great interest in STEM.</p>
-    </div>
-    
-    <footer>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv.pdf">Résumé</a></li>
-        </ul>
+    <footer class="page-footer font-small blue pt-4 pb-0">
+        <div class="footer-copyright text-center py-3">Copyright © 2020
+            <a class="link" href="https://github.com/shreysahgal"> Shrey Sahgal</a>
+        </div>
     </footer>
 </body>
-
 </html>

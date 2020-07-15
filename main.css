@@ -1,80 +1,99 @@
-body {
-    margin: 0 auto;
-    padding: 2em 2em 4em;
-    max-width: 800px;
-    font-family: 'PT Serif', serif;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.25em;
-    color: #3e3d3d;
-    background-color: #ffffff;
-    }
-
 h1 {
-    font-family: 'Inconsolata';
-    color: #3e3d3d;
-    line-height: 0em;
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 50px;
+    font-family: "Playfair Display";
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size:50px;
 }
 
-h2 {
-    font-family: 'Inconsolata';
-    color: #3e3d3d;
-    line-height: .5em;
+hr {
+    border-color: #EEEEEE;
+    width: 20%;
 }
 
-h4 {
-    font-family: 'Inconsolata';
-    color: #3e3d3d;
+.bg-primary {
+    background-color: transparent!important;
+    border-color: #EEEEEE!important;
+    color: #EEEEEE;
 }
 
-a {
-    font-family: 'PT Serif', serif;
-    font-weight: 700;
-    color: midnightblue;
-    text-decoration: none;
-    padding: 1px;
+.bg-primary .header {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: bold;;
 }
 
-a:hover {
-    background-color: rgba(255, 69, 0, 0.93);
+.bg-primary .header2 {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: normal;;
 }
 
-#header a:link{
-    font-family: 'Inconsolata';
-    color: midnightblue;
-    padding: 1px;
+.bg-primary .body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
-#bio {
-    font-size: 18px;
-    line-height: 120%;
+.tab {
+    text-indent: 6%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.icon-devpost
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+    font-size: 30px;
+}
+
+.icon-devpost>svg
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.link {
+    color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 footer {
-    border-top: 1px solid #11114e;
-    
+    color: #EEEEEE;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
+.githublink {
+    font-size: 29px;
 }
 
-ul.posts li{
-    list-style: none;
+.subheader {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul, footer ul {
-    font-family: 'Inconsolata';
-    font-weight: normal;
-    color: midnightblue;
-    text-decoration: none;
-    padding: 1px;
+.underline {
+    text-decoration: underline;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.subheader2 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
 }
