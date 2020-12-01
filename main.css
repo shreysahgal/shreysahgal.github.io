@@ -97,3 +97,17 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+.bodylink {
+    color: #EEEEEE;
+    text-decoration: underline;
+}
+
+.bodylink:hover {
+    color: #dedede;
+}
+
+.subtitle {
+    font-family: "Playfair Display";
+    font-size: 18px;
+}

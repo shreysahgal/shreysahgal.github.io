@@ -2,7 +2,7 @@ let yoff = 0.0
 var canvas;
 var h;
 var hmin;
-var interval = 3;
+var interval = 1;
 var delta = 10;
 var fishOnScreen = false;
 var dir;
@@ -35,7 +35,7 @@ function draw() {
 
   // draw fishes
   fishes.forEach(function(fish, index) {
-    if (isInRange(fish.x)) {
+    if (isInRange(fish.x) && fish.y <= displayHeight) {
       fish.x += fish.step;
       drawFish(fish.color, fish.size, fish.x, fish.y, fish.dir);
     } else {
@@ -43,8 +43,12 @@ function draw() {
     }
   });
 
+  
+
   // if interval has been hit, create a new fish
   if(frameCount % (interval * 30) == 0) {
+    console.log(hmin);
+    console.log(displayHeight);
     // randomly choose direction
     dir = Math.random() < 0.5 ? 'r' : 'l';
     let fish;
@@ -52,7 +56,7 @@ function draw() {
       fish = {
         color: 'FB6376',
         x: displayWidth + 20,
-        y: getRand(hmin*1.2, displayHeight*0.75),
+        y: getRand(hmin*1.2-h*1.2, displayHeight*0.75-h*1.2),
         size: getRand(20,30),
         dir: dir,
         step: -1*getRand(2,5)
@@ -62,7 +66,7 @@ function draw() {
       fish = {
         color: 'FB6376',
         x: -20,
-        y: getRand(hmin*1.2, displayHeight*0.75),
+        y: getRand(0, displayHeight*0.75),
         size: 25,
         dir: dir,
         step: getRand(2,5)
