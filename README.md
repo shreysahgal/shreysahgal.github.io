@@ -1,3 +1,3 @@
-# shreysahgal.github.io
+# shreysahgal.net
 
 my website :)
